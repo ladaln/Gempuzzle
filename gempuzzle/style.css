@@ -1,0 +1,86 @@
+body {
+
+	background: rgb(255, 208, 253);
+	background: linear-gradient(90deg, rgba(255, 208, 253, 0.21081936192445727) 0%, rgba(0, 0, 0, 0.1407913507199755) 21%, rgba(151, 151, 151, 1) 51%, rgba(151, 151, 151, 0.30885857761073177) 74%, rgba(255, 208, 253, 0.28925073447347693) 98%);
+}
+
+main {
+	padding-top: 50px;
+	display: flex;
+
+}
+
+table {
+	background-color: #ECECEC;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	margin: auto;
+}
+
+.playground__result {
+	margin-bottom: 5px;
+}
+
+.playground__zone {
+	margin: 0 auto;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+
+.playground__params {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	gap: 30px;
+}
+
+.playground__row {
+	margin-right: 10px;
+}
+
+.playground-btn {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.playground-btn input {
+	color: #ffffff;
+	background-color: rgb(61, 89, 164);
+	padding: 10px 15px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.playground-btn input:hover {
+	background-color: rgb(53, 77, 144);
+}
+
+.playground-btn input:active {
+	background-color: rgb(89, 122, 215);
+}
+
+.object {
+	width: 75px;
+	height: 75px;
+	background-color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.playground-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 20px;
+}
+
+.timer {
+	display: flex;
+}

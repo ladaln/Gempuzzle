@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gem puzzle</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<main>
+		<div class="wrapper">
+			<div class="playground">
+				<div class="playground-buttons">
+					<div class="playground-btn playground__start">
+						<input class="button start" type="button" id="game-start" value="Shuffle and Start">
+					</div>
+					<div class="playground-btn">
+						<input class="button stop" type="button" id="game-stop" value="Stop">
+					</div>
+					<div class="playground-btn">
+						<input type="button" id="game-save" value="Save">
+					</div>
+					<div class="playground-btn">
+						<input type="button" id="game-result" value="Results">
+					</div>
+				</div>
+				<div class="playground__params">
+					<div class="playground__result">
+						<span>Moves: <span id="game-moves">0</span></span>
+					</div>
+
+
+					<div class="timer">
+						<span>Time:</span>
+						<div class="timer__block">
+							<div class="time minute">00</div>
+						</div>
+						<span>.</span>
+						<div class="timer__block">
+							<div class="time second">00</div>
+						</div>
+					</div>
+
+
+					<div class="playground__row">
+						<span>Columns: <input type="text" name="rows" id="game-rows" value="4" size="1"></span>
+					</div>
+					<div class="playground__column">
+						<span>Raws: <input type="text" name="columns" id="game-columns" value="4" size="1"></span>
+					</div>
+				</div>
+				<div class="playground__zone">
+					<table id="game-zone"></table>
+				</div>
+
+
+			</div>
+		</div>
+	</main>
+	<script src="script.js"></script>
+</body>
+
+</html>
